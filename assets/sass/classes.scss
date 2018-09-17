@@ -1,0 +1,55 @@
+.paragraph-color {
+    color: $headerParagraphColor;
+}
+
+.section-header {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.line {
+    width: 170px;
+    height: 3px;
+    background-color: $mainColor;
+    margin: 15px auto;
+}
+
+.mini-header {
+    color: $miniHeaderColor;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    margin: 11px 0px;
+    background-color: $mainColor;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    li {
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase
+        }
+        a:hover {
+            color: $mainColor;
+        }
+    }
+}
+
+.button {
+    padding: 10px 30px;
+    background-color: $mainColor;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.p0 {
+    padding: 0px !important;
+}

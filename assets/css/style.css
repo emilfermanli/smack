@@ -1,0 +1,512 @@
+.paragraph-color {
+  color: #707070;
+}
+
+.section-header {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.line {
+  width: 170px;
+  height: 3px;
+  background-color: #ffe600;
+  margin: 15px auto;
+}
+
+.mini-header {
+  color: #515151;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 11px 0px;
+  background-color: #ffe600;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar li a:hover {
+  color: #ffe600;
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: #ffe600;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.p0 {
+  padding: 0px !important;
+}
+
+* ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#panel,
+#panel2,
+#panel3,
+#panel4 {
+  padding: 50px;
+  display: none;
+}
+
+#header .header-menu {
+  height: 100px;
+  background-color: #122a2f;
+  padding-top: 15px;
+  color: white;
+}
+#header .null {
+  height: 290px;
+  background-color: #11343a;
+}
+#header .main-text {
+  height: 370px;
+  text-align: center;
+  background-color: #122a2f;
+  color: white;
+  padding-top: 90px;
+}
+#header .main-text h1 {
+  margin: 0px 30% 30px;
+}
+#header .main-text a {
+  text-decoration: none;
+  color: black;
+}
+
+#main {
+  background-color: #fbfbfb;
+}
+#main #our-services {
+  height: auto;
+  padding-bottom: 60px;
+}
+#main #our-services .services-header {
+  text-align: center;
+  padding-top: 60px;
+}
+#main #our-services .services {
+  text-align: center;
+  padding-top: 60px;
+}
+#main #our-services .services i {
+  font-size: 30px;
+  color: white;
+  border-radius: 100%;
+  padding: 35px;
+  background-color: #ffe600;
+  border: 1px solid #ffe600;
+  cursor: pointer;
+}
+#main #our-services .services i:hover {
+  background-color: white;
+  color: #ffe600;
+  border: 1px solid black;
+}
+#main #our-services .services h6 {
+  font-weight: 800;
+  margin: 30px;
+}
+#main #our-services .services p {
+  color: #707070;
+}
+#main #what-we-do .offers {
+  background-color: #131a1d;
+  height: 470px;
+}
+#main #what-we-do .offers-header {
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+}
+#main #what-we-do .offers-header span {
+  color: #ffe600;
+}
+#main #what-we-do .offers-header p {
+  margin: 30px 0px 60px;
+}
+#main #what-we-do .what-we-do {
+  text-align: center;
+  color: white;
+}
+#main #what-we-do .what-we-do i {
+  color: #ffe600;
+  font-size: 40px;
+}
+#main #what-we-do .what-we-do h6 {
+  font-weight: 800;
+  margin: 15px;
+}
+#main #what-we-do .what-we-do p {
+  font-size: 14px;
+}
+#main #our-works {
+  padding-top: 60px;
+}
+#main #our-works .works-header {
+  text-align: center;
+}
+#main #our-works .works-menu ul {
+  width: 60%;
+  margin: 30px auto;
+}
+#main #our-works .works-menu a {
+  color: black;
+  font-weight: 400;
+}
+#main #our-works .works-menu a:hover {
+  font-weight: 600;
+}
+#main #our-works .works-gallery .big-image {
+  overflow: hidden;
+  height: 440px;
+}
+#main #our-works .works-gallery .big-image img {
+  width: 100%;
+  height: 100%;
+}
+#main #our-works .works-gallery .image-info {
+  padding-top: 80px;
+}
+#main #our-works .works-gallery .image-info h4 {
+  margin-bottom: 15px;
+}
+#main #our-works .works-gallery .image-info p {
+  margin-bottom: 30px;
+}
+#main #our-works .works-gallery .image-info a {
+  text-decoration: none;
+  color: white;
+}
+#main #graphic-design {
+  padding: 60px 0px;
+}
+#main #graphic-design .gallery-box {
+  height: 224px;
+  overflow: hidden;
+}
+#main #graphic-design .gallery-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#main #graphic-design .sample-image {
+  background-color: #cfc20c;
+  text-align: center;
+}
+#main #graphic-design .sample-image p {
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  margin: 38% auto;
+}
+#main #graphic-design .sample-image span {
+  font-size: 14px;
+}
+#main #graphic-design .our-portfolio {
+  text-align: center;
+  padding-top: 60px;
+}
+#main #graphic-design .our-portfolio p {
+  margin: 15px 0px 60px;
+}
+#main #graphic-design .our-portfolio a {
+  text-decoration: none;
+  color: white;
+}
+#main #proud-numbers .achievement {
+  background-color: #131a1d;
+  height: 400px;
+  padding-top: 60px;
+}
+#main #proud-numbers .achievement .achievement-header {
+  text-align: center;
+  color: white;
+}
+#main #proud-numbers .achievement .achievement-header p {
+  margin: 15px 0px 60px;
+}
+#main #proud-numbers .achievement .number-box {
+  border: 2px solid #ffe600;
+  height: 140px;
+  text-align: center;
+  padding-top: 30px;
+}
+#main #proud-numbers .achievement .number-box span {
+  font-size: 35px;
+  font-weight: 800;
+}
+#main #proud-numbers .achievement .number-box .box-text {
+  margin: 0px;
+  color: #ffe600;
+}
+#main #about-us {
+  padding-top: 60px;
+  background-color: #fbfbfb;
+}
+#main #about-us .about-header {
+  text-align: center;
+  padding: 0px 60px;
+}
+#main #about-us .about-works {
+  margin-top: 90px;
+}
+#main #about-us .about-works .mini-circle {
+  font-size: 30px;
+  float: left;
+  border-radius: 100%;
+  background-color: #ffe600;
+  color: white;
+  padding: 20px;
+  margin: 5px 15px 20px;
+}
+#main #about-us .about-works span {
+  font-weight: 600;
+  color: #515151;
+}
+#main #about-us .about-works p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+#main #about-us .team-header {
+  padding-top: 120px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#main #about-us .team-header p {
+  margin-top: 30px;
+}
+#main #about-us .worker {
+  height: 330px;
+  background-color: white;
+  margin-bottom: 60px;
+}
+#main #about-us .worker img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+#main #about-us .worker .worker-name {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 15px;
+  border-bottom: 2px solid #e1e6e6;
+}
+#main #about-us .worker .worker-name span {
+  color: #ffe600;
+}
+#main #about-us .worker-select {
+  text-decoration: none;
+  cursor: pointer;
+}
+#main #about-us .information-background {
+  background-color: #131316;
+  height: 360px;
+}
+#main #about-us .information-background .worker-information {
+  text-align: start;
+}
+#main #about-us .information-background .worker-information span {
+  color: #ffe600;
+  font-weight: 600;
+}
+#main #about-us .information-background .worker-information p {
+  margin-top: 30px;
+  color: white;
+}
+#main #about-us .information-background .worker-information a {
+  margin-right: 30px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  box-sizing: border-box;
+}
+#main #about-us .information-background .worker-information a i {
+  font-size: 18px;
+}
+#main #about-us .information-background .worker-information .p13 {
+  padding: 10px 12px;
+}
+#main #about-us .skills-background {
+  height: 450px;
+  background-color: #131a1d;
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+}
+#main #about-us .skills-background p {
+  color: white;
+  margin: 15px 0px 60px;
+}
+#main #about-us .skills-background .circle-box {
+  text-align: center;
+  height: 110px;
+}
+#main #about-us .skills-background .circle-box canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#main #about-us .skills-background .circle-box .chart {
+  width: 140px;
+  height: 140px;
+  margin: 0px auto 15px;
+  line-height: 140px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  font-size: 25px;
+  color: #ffe600;
+}
+#main #about-us .skills-background .circle-box .skill-name {
+  color: #ffe600;
+  font-weight: 600;
+}
+#main #our-clients {
+  padding: 60px 0px 60px;
+}
+#main #our-clients .client-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#main #our-clients .sponsored {
+  overflow: hidden;
+  text-align: center;
+}
+#main #our-clients .sponsored img {
+  object-fit: cover;
+}
+#main #our-clients .commentary {
+  height: 300px;
+  margin-top: 60px;
+  background-color: #131a1d;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+#main #our-clients .commentary p {
+  margin: 60px 25% 30px;
+}
+#main #our-clients .commentary .mySlides {
+  display: none;
+}
+#main #our-clients .commentary .mini-boxes {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  cursor: pointer;
+}
+#main #our-clients .commentary .mini-boxes .slider-page-box {
+  height: 5px;
+  width: 5px;
+  margin: 0px 5px;
+  background-color: white;
+}
+#main #our-clients .commentary .mini-boxes .slider-page-box:hover {
+  background-color: #ffe600;
+}
+#main #contact-us {
+  background-color: #fbfbfb;
+}
+#main #contact-us .contact-header {
+  text-align: center;
+}
+#main #contact-us .communications {
+  text-align: center;
+  padding: 60px 0px 60px;
+}
+#main #contact-us .communications i {
+  font-size: 30px;
+  color: #ffe600;
+}
+#main #contact-us .communications p {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 15px 0px 15px;
+}
+#main #contact-us .message-background {
+  background-color: #131a1d;
+  height: 660px;
+  padding: 60px 0px 60px;
+}
+#main #contact-us .message-background .message-header {
+  text-align: center;
+  color: white;
+}
+#main #contact-us .message-background .message-header p {
+  color: white;
+  margin: 15px 0px 60px;
+}
+#main #contact-us .message-background input {
+  width: 100%;
+  height: 55px;
+  background-color: transparent;
+  padding-left: 15px;
+  color: white;
+}
+#main #contact-us .message-background .message-box {
+  margin-top: 30px;
+  height: 220px;
+  padding: 15px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+#main #contact-us .message-background button {
+  margin: 30px auto;
+  border-color: #ffe600;
+  cursor: pointer;
+}
+
+#footer {
+  text-align: center;
+}
+#footer .footer-social {
+  height: 180px;
+  background-color: #131316;
+  color: white;
+}
+#footer .footer-social p {
+  margin-top: 30px;
+}
+#footer .footer-social p span {
+  color: #ffe600;
+}
+#footer .footer-social a {
+  text-decoration: none;
+  color: white;
+}
+#footer .footer-social a i {
+  margin: 0px 5px;
+}
+#footer .footer-social .slide-top {
+  width: 60px;
+  height: 60px;
+  background-color: #ffe600;
+  margin: 26px auto 0px;
+  cursor: pointer;
+}
+#footer .footer-social .slide-top i {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

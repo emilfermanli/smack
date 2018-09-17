@@ -1,0 +1,475 @@
+* {
+    ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+}
+
+#panel,
+#panel2,
+#panel3,
+#panel4 {
+    padding: 50px;
+    display: none;
+}
+
+#header {
+    .header-menu {
+        height: 100px;
+        background-color: $firstBackgroundColor;
+        padding-top: 15px;
+        color: white;
+    }
+    .null {
+        height: 290px;
+        background-color: $secondBackgroundColor;
+    }
+    .main-text {
+        height: 370px;
+        text-align: center;
+        background-color: $firstBackgroundColor;
+        color: white;
+        padding-top: 90px;
+        h1 {
+            margin: 0px 30% 30px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+#main {
+    background-color: $threeBackgroundColor;
+    #our-services {
+        height: auto;
+        padding-bottom: 60px;
+        .services-header {
+            text-align: center;
+            padding-top: 60px;
+        }
+        .services {
+            text-align: center;
+            padding-top: 60px;
+            i {
+                font-size: 30px;
+                color: white;
+                border-radius: 100%;
+                padding: 35px;
+                background-color: $mainColor;
+                border: 1px solid $mainColor;
+                cursor: pointer;
+                &:hover {
+                    background-color: white;
+                    color: $mainColor;
+                    border: 1px solid black;
+                }
+            }
+            h6 {
+                font-weight: 800;
+                margin: 30px;
+            }
+            p {
+                color: $headerParagraphColor;
+            }
+        }
+    }
+    #what-we-do {
+        .offers {
+            background-color: $fourBackgroundColor;
+            height: 470px;
+        }
+        .offers-header {
+            text-align: center;
+            color: white;
+            padding-top: 60px;
+            span {
+                color: $mainColor;
+            }
+            p {
+                margin: 30px 0px 60px;
+            }
+        }
+        .what-we-do {
+            text-align: center;
+            color: white;
+            i {
+                color: $mainColor;
+                font-size: 40px;
+            }
+            h6 {
+                font-weight: 800;
+                margin: 15px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    #our-works {
+        padding-top: 60px;
+        .works-header {
+            text-align: center;
+        }
+        .works-menu {
+            ul {
+                width: 60%;
+                margin: 30px auto;
+            }
+            a {
+                color: black;
+                font-weight: 400;
+                &:hover {
+                    font-weight: 600;
+                }
+            }
+        }
+        .works-gallery {
+            .big-image {
+                overflow: hidden;
+                height: 440px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .image-info {
+                padding-top: 80px;
+                h4 {
+                    margin-bottom: 15px;
+                }
+                p {
+                    margin-bottom: 30px;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+    #graphic-design {
+        padding: 60px 0px;
+        .gallery-box {
+            height: 224px;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .sample-image {
+            background-color: $galleryBackground;
+            text-align: center;
+            p {
+                font-weight: 600;
+                color: white;
+                font-size: 18px;
+                margin: 38% auto;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        .our-portfolio {
+            text-align: center;
+            padding-top: 60px;
+            p {
+                margin: 15px 0px 60px;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    #proud-numbers {
+        .achievement {
+            background-color: $fourBackgroundColor;
+            height: 400px;
+            padding-top: 60px;
+            .achievement-header {
+                text-align: center;
+                color: white;
+                p {
+                    margin: 15px 0px 60px;
+                }
+            }
+            .number-box {
+                border: 2px solid $mainColor;
+                height: 140px;
+                text-align: center;
+                padding-top: 30px;
+                span {
+                    font-size: 35px;
+                    font-weight: 800;
+                }
+                .box-text {
+                    margin: 0px;
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+    #about-us {
+        padding-top: 60px;
+        background-color: $threeBackgroundColor;
+        .about-header {
+            text-align: center;
+            padding: 0px 60px;
+        }
+        .about-works {
+            margin-top: 90px;
+            .mini-circle {
+                font-size: 30px;
+                float: left;
+                border-radius: 100%;
+                background-color: $mainColor;
+                color: white;
+                padding: 20px;
+                margin: 5px 15px 20px;
+            }
+            span {
+                font-weight: 600;
+                color: $aboutSpanHeader;
+            }
+            p {
+                font-size: 14px;
+                margin-top: 15px;
+            }
+        }
+        .team-header {
+            padding-top: 120px;
+            text-align: center;
+            margin-bottom: 60px;
+            p {
+                margin-top: 30px;
+            }
+        }
+        .worker {
+            height: 330px;
+            background-color: white;
+            margin-bottom: 60px;
+            img {
+                height: 250px;
+                width: 100%;
+                object-fit: cover;
+            }
+            .worker-name {
+                text-align: center;
+                font-weight: 600;
+                padding-top: 15px;
+                border-bottom: 2px solid $workerNameBorder;
+                span {
+                    color: $mainColor;
+                }
+            }
+        }
+        .worker-select {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .information-background {
+            background-color: $informationBackground;
+            height: 360px;
+            .worker-information {
+                text-align: start;
+                span {
+                    color: $mainColor;
+                    font-weight: 600;
+                }
+                p {
+                    margin-top: 30px;
+                    color: white;
+                }
+                a {
+                    margin-right: 30px;
+                    text-decoration: none;
+                    border: 1px solid white;
+                    padding: 10px;
+                    color: white;
+                    box-sizing: border-box;
+                    i {
+                        font-size: 18px;
+                    }
+                }
+                .p13 {
+                    padding: 10px 12px;
+                }
+            }
+        }
+        .skills-background {
+            height: 450px;
+            background-color: $fourBackgroundColor;
+            text-align: center;
+            color: white;
+            padding-top: 60px;
+            p {
+                color: white;
+                margin: 15px 0px 60px;
+            }
+            .circle-box {
+                text-align: center;
+                height: 110px;
+                canvas {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                .chart {
+                    width: 140px;
+                    height: 140px;
+                    margin: 0px auto 15px;
+                    line-height: 140px;
+                    position: relative;
+                    text-align: center;
+                    top: 0;
+                    font-size: 25px;
+                    color: $mainColor;
+                } // .circle {
+                //     margin: 0px auto;
+                //     border: 2px solid $mainColor;
+                //     width: 140px;
+                //     height: 140px;
+                //     border-radius: 100%;
+                //     margin-bottom: 15px;
+                // }
+                .skill-name {
+                    color: $mainColor;
+                    font-weight: 600;
+                } // Percant Circle
+            }
+        }
+    }
+    #our-clients {
+        padding: 60px 0px 60px;
+        .client-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .sponsored {
+            overflow: hidden;
+            text-align: center;
+            img {
+                object-fit: cover;
+            }
+        }
+        .commentary {
+            height: 300px;
+            margin-top: 60px;
+            background-color: $fourBackgroundColor;
+            text-align: center;
+            color: white;
+            position: relative;
+            p {
+                margin: 60px 25% 30px;
+            }
+            .mySlides {
+                display: none;
+            }
+            .mini-boxes {
+                display: flex;
+                padding-top: 30px;
+                justify-content: center;
+                cursor: pointer;
+                .slider-page-box {
+                    height: 5px;
+                    width: 5px;
+                    margin: 0px 5px;
+                    background-color: white;
+                    &:hover {
+                        background-color: $mainColor;
+                    }
+                }
+            }
+        }
+    }
+    #contact-us {
+        background-color: $threeBackgroundColor;
+        .contact-header {
+            text-align: center;
+        }
+        .communications {
+            text-align: center;
+            padding: 60px 0px 60px;
+            i {
+                font-size: 30px;
+                color: $mainColor;
+            }
+            p {
+                font-weight: 700;
+                font-size: 18px;
+                margin: 15px 0px 15px;
+            }
+        }
+        .message-background {
+            background-color: $fourBackgroundColor;
+            height: 660px;
+            padding: 60px 0px 60px;
+            .message-header {
+                text-align: center;
+                color: white;
+                p {
+                    color: white;
+                    margin: 15px 0px 60px;
+                }
+            }
+            input {
+                width: 100%;
+                height: 55px;
+                background-color: transparent;
+                padding-left: 15px;
+                color: white;
+            }
+            .message-box {
+                margin-top: 30px;
+                height: 220px;
+                padding: 15px;
+                width: 100%;
+                background-color: transparent;
+                color: white;
+                border: 2px solid white;
+            }
+            button {
+                margin: 30px auto;
+                border-color: $mainColor;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#footer {
+    text-align: center;
+    .footer-social {
+        height: 180px;
+        background-color: $informationBackground;
+        color: white;
+        p {
+            margin-top: 30px;
+            span {
+                color: $mainColor;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            i {
+                margin: 0px 5px;
+            }
+        }
+        .slide-top {
+            width: 60px;
+            height: 60px;
+            background-color: $mainColor;
+            margin: 26px auto 0px;
+            cursor: pointer;
+            i {
+                margin-top: 15px;
+                font-size: 30px;
+            }
+        }
+    }
+}
